@@ -16,7 +16,7 @@ public class FileUploadPopup {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(20));
 		
 		driver.get("https://www.freshersworld.com/user/register?src=homeheader");
-		driver.findElement(By.xpath("//input[@type='file']")).sendKeys(args)
+		driver.findElement(By.xpath("//input[@type='file']")).sendKeys(args);
 
 	}
 

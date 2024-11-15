@@ -27,20 +27,19 @@ public class ASelectLastOption {
 		System.out.println(allOptions.size());
 
 		
-		for(int i=119;i<=allOptions.size()-1;) {
+	/*	for(int i=119;i<=allOptions.size()-1;) {
 			yearSelect.selectByIndex(i);
 			System.out.println(get(allOptions.size()-1).getText());
 		}
 		
-		//System.out.println(
+		//System.out.println( */
 
-		/* for(WebElement ele:allOptions) {
+		 for(WebElement ele:allOptions) {
 			 yearSelect.selectByVisibleText(ele.getText());
 			 if(ele.isSelected()) {
 				 System.out.println(ele.getText()+"----->selected");
 			 }
-		 }*/
-		
+		 }
 
 	}
 
